@@ -1,7 +1,8 @@
-arrays are numbered lists with indexes
+// arrays are numbered lists with indexes
 console.log("starting of arrays");
+// Setting an array of character
 var characters = ['Luke', 'Leia', 'Han', 'Chewie'];
-
+// read off the characters array
 console.log(characters);
 console.log(characters.length);
 console.log(characters[characters.length-1]);
