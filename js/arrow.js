@@ -20,7 +20,7 @@ this.a = 25;
 let print = function() {
   console.log('this.a', this.a);
 }
-
+// Call the function
 print();
 
 let arrowPrint = () => {
