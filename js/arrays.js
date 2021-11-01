@@ -166,3 +166,5 @@ console.log(mergeSortedArray([0,3,4,31], [4,6,30]));
 let selectedColors = ["red", 'blue'];
 selectedColors[2] = 1;
 console.log(selectedColors.includes('red'));
+
+run through this and fix it
