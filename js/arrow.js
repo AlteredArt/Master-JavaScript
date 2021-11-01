@@ -1,4 +1,4 @@
-// Arrow Functions
+// Arrow Functions (DONE)
 // arrow functions dont create a this object
 console.log('arrow function')
 
