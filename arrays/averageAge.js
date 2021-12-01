@@ -15,3 +15,4 @@ function calculateAverage(array) {
   return  sum / marks.length;
   }
 console.log("calculate Grade", calculateGrade(marks));
+
