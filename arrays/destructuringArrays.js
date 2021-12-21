@@ -7,11 +7,11 @@ console.log(a, b);
 
 
 let d = [200, 300];
-console.log(d[0], d[1]);
+console.log(d[0], d[1]); //200 300
 
 let g = [400, 500];
 let [h, i] = g
-console.log(h, i);
+console.log(h, i); //What does this return
 
 let fellowship = ["Waffles", "chloe", "jared"]
 let [goodCat, badCat, dumbAss] = fellowship;

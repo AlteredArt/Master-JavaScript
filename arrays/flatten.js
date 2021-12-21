@@ -1,7 +1,5 @@
-
-
-
 //flatten arrays
+//What is the purpose
 const flatten = (arr) => {
     return arr.reduce((a, b) => {
         return a.concat(b)

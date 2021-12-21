@@ -1,35 +1,33 @@
 // Arrays are numbered lists with indexes
-//Looping through an array
-const colors = ['red', 'blue', 'green'];
-console.log("an array", colors);
-// for in an Array
+  const colors = ['red', 'blue', 'green'];
+  console.log("an array", colors);
 //ES6 syntax, less errors than a for loop.
-for (let index in colors)
-  console.log('for in:', index, colors[index])
+  for (let index in colors)
+    console.log('for in:', index, colors[index])
 
 // for of ideal for arrays
 //again ES6 syntax, can be used in objects
-for (let i of colors)
-  console.log('for of:', i, colors[i]);
+  for (let i of colors)
+    console.log('for of:', i, colors[i]);
 
 //use strict es5 for concat
-var b = [6].concat(colors, [10])
-console.log("concat:", b)
+  var b = [6].concat(colors, [10])
+  console.log("concat:", b)
 // contacting
-console.log("concat:", colors.concat(["meow"]))
+  console.log("concat:", colors.concat(["meow"]))
 
 //ES6 Spread Operator
 //Spread Operator in Arrays
-let c = ["yellow", ...colors, 'teal'];
-console.log("spread in:", c);
+  let c = ["yellow", ...colors, 'teal'];
+  console.log("spread in:", c);
 
 
 //spread in a function
-function print(...z) {
-  let a = [1, 2, 3, ...z]
-  console.log("spread in:", a)
-}
-print(4, 5, 6)
+  function print(...z) {
+    let a = [1, 2, 3, ...z]
+    console.log("spread in:", a)
+  }; 
+  print(4, 5, 6);
 
 // properties
 console.log("length of array:", colors.length); // length of array
