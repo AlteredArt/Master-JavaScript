@@ -13,6 +13,7 @@ let g = [400, 500];
 let [h, i] = g
 console.log(h, i); //What does this return
 
+//Example two
 let fellowship = ["Waffles", "chloe", "jared"]
 let [goodCat, badCat, dumbAss] = fellowship;
 console.log(dumbAss, goodCat, badCat);
