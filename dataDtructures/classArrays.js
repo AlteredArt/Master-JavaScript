@@ -1,14 +1,15 @@
-//arrays or aka lists organizse items sequentially. smallest footprint of any structure. 
+// Arrays (Lists) organize items sequentially. smallest footprint of any structure. 
+// The array below is a 4*4 = 16 bytes of storage
 const strings = ['a', 'b', 'c', 'd'];
-//4*4 = 16 bytes of storgae
-console.log(strings[1]) //access O(1)
-console.log(strings.push('e'))   //push O(1)
+
+console.log(strings[1]) //access O(1) of array strings
+console.log(strings.push('e'))   //push O(1) 
 console.log(strings.pop());     //pop O(1)
 console.log(strings.unshift('x'))   //unshift O(n)
 console.log(strings.splice(2, 0, "aliens")) // splice O(n)
-//static arrays are fixed in size
-// a dynamic arrays allow us to copy and build a new array ata new location
-//arrays in js are just objects with array based keys
+// Static arrays are fixed in size
+// A dynamic arrays allow us to copy and build a new array at a new location
+// Arrays in js are just objects with array based keys
 
 class MyArray {
     constructor(){
