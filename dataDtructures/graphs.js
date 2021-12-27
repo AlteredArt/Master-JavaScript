@@ -1,11 +1,12 @@
-console.log("graphs")
-//edge list
+console.log("Graphs Sections");
+
+// Edge list
 const graph = [[0,2], [2,3], [2,1],[[1,3]]];
 
-//Adjacent list
+// Adjacent list
 const graph2 = [[2], [2,3], [0,1,3], [1,2] ]
 
-//Adjacent Matrix
+// Adjacent Matrix
 const graph3 = {
     0:[0,0,1,0],
     1:[0,0,1,1],
@@ -13,7 +14,7 @@ const graph3 = {
     3:[0,1,1,0]
 }
 
-
+// Class Graph
 class Graph { 
     constructor() { 
       this.numberOfNodes = 0; 
@@ -58,5 +59,4 @@ class Graph {
   myGraph.addEdge('1', '0'); 
   myGraph.addEdge('0', '2'); 
   myGraph.addEdge('6', '5');
-  
   myGraph.showConnections(); 

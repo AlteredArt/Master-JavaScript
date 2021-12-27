@@ -24,9 +24,7 @@ class DoubleLinkedList {
     append(value) {
         const newNode = new Node(value)
         newNode.prev = this.tail
-        //double
         this.tail.next = newNode;
-        //
         this.tail = newNode;
         this.length++;
         return this;
@@ -35,9 +33,7 @@ class DoubleLinkedList {
     prepend(value) {
         const newNode = new Node(value)
         newNode.next = this.head;
-        //double
         this.head.prev = newNode;
-        //
         this.head = newNode;
         this.length++;
         return this
@@ -56,15 +52,13 @@ class DoubleLinkedList {
         if (index >= this.length) {
             return this.append(value);
         }
+
         const newNode = new Node(value)
         const leader = this.traverseToIndex(index - 1)
-        //double
         const follower = leader.next;
-        //
+
         leader.next = newNode;
-        //double
         newNode.prev = leader;
-        //
         newNode.next = follower;
         follower.prev = newNode;
         this.length++;
@@ -77,6 +71,7 @@ class DoubleLinkedList {
             currentNode = currentNode.next;
             counter++
         }
+        
         return currentNode;
     }
 
