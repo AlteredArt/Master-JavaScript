@@ -30,3 +30,18 @@ class Circle {
 const c1 = new Circle(1);
 c1.draw();
 console.log(c1)
+
+
+console.log('classes')
+
+class Glass {
+  constructor(name, height){
+    this.name = name;
+    this.height = height;
+  }
+  greet(){
+    console.log(`Hello I'm ${this.name}, my height is ${this.height}`);
+  }
+}
+let Mary = new Glass("Merry", 4.6)
+Mary.greet();
