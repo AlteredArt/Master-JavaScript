@@ -1,3 +1,4 @@
+// Welcome to DOM Events
 var button = document.getElementById('click');
 button.addEventListener('click', function () {
     console.log("CLICK ME SUCCESS");
