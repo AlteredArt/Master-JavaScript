@@ -2,7 +2,8 @@ console.log('Hash Tables in javascript')
 class HashTable {
     constructor(size) {
         this.data = new Array(size);
-    }
+    };
+
     // the underscore in the function name makes it a private function
     _hash(key) {
         let hash = 0;
@@ -12,6 +13,7 @@ class HashTable {
         }
         return hash;
     }
+
     // write out set method O(1)
     set(key, value) {
         let address = this._hash(key);
@@ -20,6 +22,7 @@ class HashTable {
         } else { this.data[address].push([key, value]) }
         return this.data
     }
+
     // writing our get method O(1)
     get(key) {
         let address = this._hash(key);
@@ -33,6 +36,7 @@ class HashTable {
         }
         return undefined
     }
+
     // loop through keys
     keys() {
         const keysArray = [];
@@ -44,6 +48,8 @@ class HashTable {
         return keysArray;
     }
 }
+
+// Initiate the class of Hash Table
 const myHashTable = new HashTable();
 myHashTable.set('grapes', 1000);
 myHashTable.set('apples', 54);
