@@ -1,15 +1,18 @@
 // For in loops
-// interating an object
+// iterating an object
 const person = {
     name: 'Mosh',
     age: 30
   };
   
   for (let key in person)
-  console.log(key, person[key]);
+  console.log(key, person[key]); // key value pair
   
-  // in an Array
+
+
+  // * Iterating an Array
   const colors = ['red', 'blue', 'green'];
+
   for (let index in colors)
   console.log(index, colors[index])
   
