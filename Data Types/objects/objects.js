@@ -130,7 +130,7 @@ pets[2]["age"] = 6;
 pets[1].hungry = true;
 console.log(pets);
 
-nested loops
+// nested loops
 let bigHero = {characters: [
   {name:"hiro", voice:"Ryan Potter"},
   {name:"Baymax", voice:"Scott Adsit"},
