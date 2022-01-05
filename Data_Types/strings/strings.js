@@ -1,14 +1,18 @@
+// These are strings
+console.log("These are strings and string manipulation");
+
+// String inside of a variable
 var string1 = "freeCodeCamp is the best place to learn"
 var string2 = "frontend and backend development"
-console.log("charAt()", string1.charAt(1))
-console.log("charCodeAt()", string1.charCodeAt(1))
-console.log("concat()", string1.concat(string2))
-console.log("endsWith()", string1.endsWith("to"))
-console.log("fromcharCode()", String.fromCharCode(114))
-console.log("includes()", string2.includes("end"))
-console.log("indexOf()", string2.indexOf("end"))
-console.log("lastIndexOf()", string2.lastIndexOf("end"))
-console.log("match()", string2.match(/end/g))
+console.log("charAt()", string1.charAt(1)) //Get character at given position
+console.log("charCodeAt()", string1.charCodeAt(1)) //Get character code at given position
+console.log("concat()", string1.concat(string2)) //Concat two string variables
+console.log("endsWith()", string1.endsWith("to")) //Checks to see if the string ends in a argument
+console.log("fromCharCode()", String.fromCharCode(114)) //Get string from given char code
+console.log("includes()", string2.includes("end")) // Checks if parameter is in string
+console.log("indexOf()", string2.indexOf("end")) // Gives the index of parameter
+console.log("lastIndexOf()", string2.lastIndexOf("end")) 
+console.log("match()", string2.match(/end/g)) // Match parameters 
 console.log("repeat()", string1.repeat(3))
 console.log("replace()", string2.replace(/end/g, "END"))
 console.log("search()", string2.search("end"))
