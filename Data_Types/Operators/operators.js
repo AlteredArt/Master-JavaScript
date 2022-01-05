@@ -1,17 +1,24 @@
-//operators (arithmatic, assignment, comparison, logical, bitwise)
-//Arithmatic
+// Operators (arithmetic, assignment, comparison, logical, bitwise)
+// Arithmetic
+// These are number variables
 let x = 10;
 let y = 3;
-console.log(x-y);
-console.log(x+y);
-console.log(x*y);
-console.log(x/y);
-console.log(x%y);
-console.log(x**y);
-//incrementor and decromentor
+console.log(x-y); // Subtraction
+console.log(x+y); // Addition
+console.log(x*y); // Multiplication
+console.log(x/y); // Division
+console.log(x%y); // Module
+console.log(x**y); // Power of
+
+// Incremental
 console.log(++x);
 console.log(x++);
 console.log('increments 1 every time its called', x);
+
+// Decremental
+console.log(--y);
+console.log(y--);
+console.log('decrements 1 every time its called', y);
 
 //asignment operator
 let m = 7;
