@@ -21,8 +21,8 @@ console.log("split()", string2.split(" ")) // Split a string
 console.log("startsWith()", string2.startsWith("f")) // Find words that start with parameters
 console.log("substr()", string2.substr(2, 4)) // Makes another string out of the indexes between parameters
 console.log("substring()", string2.substring(2,4)) // Makes another string out of the indexes between parameters
-console.log("toLowerCase()", string2.toLowerCase()) 
-console.log("toUpperCase()", string2.toUpperCase())
+console.log("toLowerCase()", string2.toLowerCase()) // Makes parameter Lower Case
+console.log("toUpperCase()", string2.toUpperCase()) // Makes parameter Upper Case
 var string3 = "       Subscribe now!      "
 console.log("trim()", string3.trim())
 
