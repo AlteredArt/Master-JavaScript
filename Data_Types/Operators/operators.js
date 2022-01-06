@@ -20,13 +20,13 @@ console.log(--y);
 console.log(y--);
 console.log('decrements 1 every time its called', y);
 
-//asignment operator
+// Assignment operator
 let m = 7;
 m = m +5;
 m += 5;
 console.log(m);
 
-//comparison
+// Comparison
 let t = 1
 //relational
 console.log(t > 1);
