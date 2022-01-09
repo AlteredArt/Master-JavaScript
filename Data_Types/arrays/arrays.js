@@ -76,11 +76,11 @@ characters.shift("R2D2");
 console.log("shift", characters);
 
 const pizza = 'pizza';
-es5 .split("") takes a string and makes it an array
+es5 .split("") //takes a string and makes it an array
 const slicedPizza = pizza.split("");
-es6 using spread instead
+// es6 using spread instead
 const slicedPizza2 = [...pizza];
-Array.from() creatyes an array from a string
+Array.from() // Creates an array from a string
 const slicedPizza3 = Array.from(pizza);
 console.log(slicedPizza, slicedPizza2, slicedPizza3)
 
@@ -221,7 +221,7 @@ let selectedColors = ["red", 'blue'];
 selectedColors[2] = 1;
 console.log(selectedColors.includes('red'));
 
-run through this and fix it
+// run through this and fix it
 
 
 let twoD = [[1,2,3,4,5,6,7],
@@ -334,6 +334,7 @@ function mergeSortedArray(arr1, arr2){
   let array2Item = arr2[0];
   let i = 1;
   let n = 1;
+
   //check input
   if (arr1.length === 0) {
     return arr2;

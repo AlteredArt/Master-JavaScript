@@ -4,6 +4,8 @@ console.log("These are strings and string manipulation");
 // String inside of a variable
 var string1 = "freeCodeCamp is the best place to learn"
 var string2 = "frontend and backend development"
+
+// These are methods available for strings
 console.log("charAt()", string1.charAt(1)) //Get character at given position
 console.log("charCodeAt()", string1.charCodeAt(1)) //Get character code at given position
 console.log("concat()", string1.concat(string2)) //Concat two string variables
@@ -26,16 +28,3 @@ console.log("toUpperCase()", string2.toUpperCase()) // Makes parameter Upper Cas
 var string3 = "       Subscribe now!      "
 console.log("trim()", string3.trim())
 
-// reverse the characters in a string
-function reverseString(w) {
-    return w.split("").reverse().join("");
-}
-console.log(reverseString("hello"));
-
-// capitalize the first letter in a string
-const name = 'samantha';
-const CapitalizeName = [
-  ...name[0].toUpperCase(),
-  ...name.slice(1)
-].join('')
-console.log(CapitalizeName);
