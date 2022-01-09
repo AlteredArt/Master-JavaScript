@@ -1,5 +1,5 @@
 // es6 destructuring allows us to extract data from arrays or objects
-// into seperate distinct variables
+// into separate distinct variables
 let c = [100, 200];
 let a = c[0];
 let b = c[1];
