@@ -1,17 +1,19 @@
-//flatten arrays
-//What is the purpose
+// Flattening arrays
+// Flattening does
+
+// Flatten 1
 const flatten = (arr) => {
     return arr.reduce((a, b) => {
         return a.concat(b)
     })
 }
 
-//flatten 2
+// Flatten 2
 const flatten2 = arr => {
     return [].concat.apply([], arr);
 }
 
-//flatten 3
+// Flatten 3
 const flatten3 = array => {
     function add(a, b, c, d) {
         return a + b + c + d;
