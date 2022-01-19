@@ -1,8 +1,8 @@
-//using hire order function
+// Looping an array using an hire order function
 const array = [1, 2, 3, 41, 26]
 
 
-//for each, needs a new array because it doesn't make it's own array
+// A for each, needs a new array because it doesn't make it's own array
 const double = []
 const newArray = array.forEach((num) => {
     double.push(num * 2);
